@@ -1,17 +1,19 @@
 {
-	"name": "seq-queue", 
-	"author": "tannineo <tan90indream@163.com>", 
-	"version": "0.0.5", 
-	"description": "A simple tool to keep requests to be executed in order.", 
-	"homepage": "https://github.com/tannineo/seq-queue", 
-	"repository": {
-		"type": "git", 
-		"url": "git@github.com:tannineo/seq-queue.git"
-	}, 
-	"dependencies": {
-	}, 
-	"devDependencies": {
-		"mocha": ">=0.0.1", 
-		"should": ">=0.0.1"
-	}
+  "name": "seq-queue",
+  "author": "tannineo <tan90indream@163.com>",
+  "version": "0.0.5",
+  "description": "A simple tool to keep requests to be executed in order.",
+  "homepage": "https://github.com/tannineo/seq-queue",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tannineo/seq-queue.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --timeout 5000 ./test/**.test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
 }
