@@ -1,12 +1,12 @@
 {
 	"name": "seq-queue", 
-	"author": "changchang <changchang005@gmail.com>", 
+	"author": "tannineo <tan90indream@163.com>", 
 	"version": "0.0.5", 
 	"description": "A simple tool to keep requests to be executed in order.", 
-	"homepage": "https://github.com/changchang/seq-queue", 
+	"homepage": "https://github.com/tannineo/seq-queue", 
 	"repository": {
 		"type": "git", 
-		"url": "git@github.com:changchang/seq-queue.git"
+		"url": "git@github.com:tannineo/seq-queue.git"
 	}, 
 	"dependencies": {
 	}, 
